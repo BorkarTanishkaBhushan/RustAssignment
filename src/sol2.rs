@@ -21,8 +21,8 @@ fn first_occurrence(arr: &[i32], target: i32) -> Option<usize> {
 }
 
 fn main() {
-    let arr = vec![1, 2, 3, 4, 4, 4, 5, 6, 7, 8];
-    let target = 4;
+    let arr = vec![5, 8, 8, 10];
+    let target = 8;
     if let Some(index) = first_occurrence(&arr, target) {
         println!("First occurrence of {} is at index {}", target, index);
     } else {
